@@ -1,0 +1,15 @@
+<aura:component controller="ArticlesController" 
+                implements="flexipage:availableForAllPageTypes" 
+                access="global">
+    <aura:attribute name="article" type="Article__c" />
+    <aura:attribute name="content" type="String" />
+    <aura:handler event="c:NavToArticle" action="{!c.onArticleSelected}"/>
+        
+    <div>
+        <h1 class="slds-text-heading--large">{!v.article.Name}</h1>
+        
+        <div class="slds-text-body--regular content">
+            <ui:outputRichText value="{!v.article.Content__c}" />
+    	</div>
+    </div>
+</aura:component>
