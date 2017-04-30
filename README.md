@@ -10,8 +10,6 @@ The lightning components here can be droppped into the Lightning App Builder to 
 
 ## Usage
 
-Create Category__c records to categorize your articles. Create your content as Article__c records. 
-
-There are two custom objects, Category__c and Article__c, and two lightning components, Articles and ArticleDetail. The components can be added to the Lightning App Builder and then exposed to users via a custom tab. 
+There are two custom objects, Category__c and Article__c, and two lightning components, Articles and ArticleDetail. Create Category__c records to categorize your articles. Create your content as Article__c records. The components can be added to the Lightning App Builder and then exposed to users via a custom tab. 
 
 A list of all articles will appear in the Articles component, segmented by Category. The selected article will appear in the ArticleDetail component. 
