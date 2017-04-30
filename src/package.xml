@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>*</members>
+        <members>ArticlesController</members>
+        <members>Category</members>
         <name>ApexClass</name>
     </types>
     <types>
-        <members>*</members>
+        <members>ArticleDetail</members>
+        <members>Articles</members>
+        <members>NavToArticle</members>
         <name>AuraDefinitionBundle</name>
     </types>
     <types>

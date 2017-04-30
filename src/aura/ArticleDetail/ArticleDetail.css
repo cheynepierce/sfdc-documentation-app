@@ -1,6 +1,18 @@
 .THIS {
 }
 
+.THIS .article {
+	margin:10px;    
+}
+
 .THIS .content {
     margin-top:20px;
+}
+
+.THIS .center {
+    text-align:center;
+}
+
+.THIS .no-selection {
+    margin-top:60px;
 }

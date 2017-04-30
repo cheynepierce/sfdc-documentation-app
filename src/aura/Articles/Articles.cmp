@@ -7,6 +7,7 @@
     
     <div class="slds-grid slds-grid--vertical slds-navigation-list--vertical">
         <div class="slds-border--right" style="height:100%;">
+            <h1 class="slds-text-heading--large">Articles</h1>
             <aura:iteration items="{!v.categories}" var="category">
                 <h2 class="slds-text-title--caps slds-p-around--medium" 
                     id="entity-header">
