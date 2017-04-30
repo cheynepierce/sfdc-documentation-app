@@ -16,3 +16,25 @@
 .THIS .no-selection {
     margin-top:60px;
 }
+
+.THIS p {
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.THIS img {
+    height:auto !important;
+    width:100% !important;
+}
+
+.THIS h1 {
+    font-weight: 300;
+    font-size: 1.75rem;
+    line-height: 1.25;
+}
+
+.THIS h2 {
+    font-weight: 300;
+    font-size: 1.25rem;
+    line-height: 1.25;
+}
